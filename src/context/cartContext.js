@@ -13,6 +13,11 @@ const CartProvider = ({ children }) => {
             position: "bottom-right",
         });
     };
+    const notifySuccess = () => {
+        toast.success("Successfully added to cart.", {
+            position: "bottom-right",
+        });
+    };
 
     const addToCart = (product) => {
         if (product?.quantity <= 0) {
@@ -31,11 +36,13 @@ const CartProvider = ({ children }) => {
                             : item
                     )
                 );
+				notifySuccess();
             } else {
                 notifyOutOfStock();
             }
         } else {
             setCart((prevCart) => [...prevCart, { ...product, quantity: 1 }]);
+			notifySuccess();
         }
     };
     const removeFromCart = () => {
