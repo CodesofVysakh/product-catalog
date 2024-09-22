@@ -1,0 +1,71 @@
+.shoppingCart {
+    width: 50%;
+    margin: 0 50px;
+}
+
+.activeCart {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.shoppingCart ul {
+    margin: 20px 0;
+}
+
+.shoppingCart p {
+    margin-bottom: 10px;
+}
+
+.shoppingCart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.shoppingCart li span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantityButton {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.removeButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.overlay {
+    background: #000;
+    opacity: 0.2;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.close {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+}

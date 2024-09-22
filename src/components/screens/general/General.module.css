@@ -1,0 +1,60 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.searchBar input {
+    border-radius: 4px;
+    border: 1px solid #8c8c8c;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.searchBar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filterContainer {
+    width: 20%;
+    height: 100%;
+    border-left: 1px solid #eee;
+    padding: 20px;
+}
+
+.filterGroup {
+    padding: 10px;
+}
+
+.filterGroup ul {
+    padding: 10px;
+}
+
+.filterGroup ul input {
+    margin-right: 5px;
+}
+
+.filterName {
+    text-transform: capitalize;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.button:last-child {
+    margin-right: 0;
+}

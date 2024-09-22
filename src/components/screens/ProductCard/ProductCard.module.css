@@ -1,0 +1,35 @@
+.productCard {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productCard img {
+    max-width: 200px;
+    height: auto;
+}
+
+.productCard h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.productCard p {
+    margin-bottom: 15px;
+}
+
+.productCard button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productCard button:hover {
+    background-color: #444;
+}
